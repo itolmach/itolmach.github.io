@@ -94,6 +94,7 @@ p {
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 .section.hero {
+  margin-top: 45px;
   padding-bottom: 0px;
   background-image: url('../images/blurredbackgrounds.png');
   background-size: cover;
@@ -139,8 +140,8 @@ p {
   margin-right: 12px;
   margin-left: 12px;
   border-bottom: 2px solid transparent;
-  -webkit-transition: border 300ms ease;
-  transition: border 300ms ease;
+  -webkit-transition: border 300ms ease, -webkit-transform 500ms ease;
+  transition: border 300ms ease, transform 500ms ease;
   font-family: Montserrat, sans-serif;
   color: #5c5c5c;
   font-size: 14px;
@@ -149,10 +150,14 @@ p {
 }
 .nav-link:hover {
   border-bottom-color: #f02e4e;
+  -webkit-transform: translate(0px, -5px);
+  -ms-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
 }
 .nav-column {
   left: 0px;
   top: 0px;
+  padding-top: 3px;
   text-align: right;
 }
 .hero-header {
@@ -163,7 +168,7 @@ p {
   font-size: 42px;
   text-align: left;
   text-transform: uppercase;
-  text-shadow: rgba(0, 0, 0, 0.20) 0px 2px 0px;
+  text-shadow: rgba(0, 0, 0, 0.21) 0px 2px 0px;
 }
 .hero-subtitle {
   margin-bottom: 50px;
@@ -171,7 +176,7 @@ p {
   color: white;
   font-size: 15px;
   line-height: 22px;
-  text-shadow: rgba(0, 0, 0, 0.20) 0px 1px 0px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px;
 }
 .icon-title {
   margin-top: 22px;
@@ -254,8 +259,16 @@ p {
   text-align: center;
 }
 .navbar {
-  padding-top: 39px;
-  padding-bottom: 39px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  display: block;
+  overflow-x: visible;
+  overflow-y: visible;
+  background-color: whitesmoke;
+  box-shadow: black 0px -1px 3px 0px;
 }
 .social-widget {
   display: inline-block;
@@ -320,6 +333,19 @@ p {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
+}
+.nav-container {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: none;
+  background-color: white;
+  opacity: 0.9;
+}
+.contaienr {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 html.w-mod-js *[data-ix="fly-in-from-left"] {
   -webkit-transform: translate(-500px, 0px) rotate(60deg);
