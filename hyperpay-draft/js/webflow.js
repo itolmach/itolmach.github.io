@@ -52,7 +52,7 @@ module.exports = function($, _) {
   // Module methods
 
   api.ready = function() {
-    var doBranding = $html.attr("data-wf-status") && location.href.match(/webflow.com/);
+    var doBranding = $html.attr("data-wf-status");
 
     if (doBranding) {
       var $branding = $('<div></div>');
