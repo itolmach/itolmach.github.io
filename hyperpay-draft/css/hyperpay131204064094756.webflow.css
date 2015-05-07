@@ -93,7 +93,7 @@ p {
 .navigation {
   width: 100%;
   padding: 10px 20px 22px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   background-color: white;
 }
 .banner {
@@ -186,12 +186,24 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: black;
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/970ca552.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/970ca552.jpg');
-  background-position: 0% 0%, 50% 66%;
-  background-size: auto, cover;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/photo-1423666639041-f56000c27a9a.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/photo-1423666639041-f56000c27a9a.jpeg');
+  background-position: 0% 0%, 50% 46%;
+  background-size: auto, auto;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, scroll;
+}
+.section.photo.merchants {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/photo-1417733403748-83bbc7c05140.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/photo-1417733403748-83bbc7c05140.jpeg');
+  background-position: 0% 0%, 50% 59%;
+  background-size: auto, cover;
+}
+.section.photo.banks {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/95cdfeef.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/95cdfeef.jpeg');
+  background-position: 0% 0%, 50% 29%;
+  background-size: auto, cover;
 }
 .section.dark {
   display: block;
@@ -714,7 +726,7 @@ p {
   padding-top: 14px;
   padding-bottom: 22px;
   background-color: rgba(255, 255, 255, 0.97);
-  box-shadow: rgba(0, 0, 0, 0.03) 0px 1px 3px 0px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 3px 0px;
 }
 .brand-scroll {
   padding-top: 4px;
@@ -726,6 +738,7 @@ p {
 .text {
   float: left;
   color: white;
+  font-weight: 300;
 }
 .text.right {
   float: right;

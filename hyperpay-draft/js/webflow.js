@@ -4005,5 +4005,6 @@ Webflow.require('ix').init([
   {"slug":"show-hide-scroll-nav","name":"show-hide-scroll-nav","value":{"style":{},"triggers":[{"type":"scroll","selector":".go-top","offsetBot":"30%","stepsA":[{"opacity":0,"transition":"transform 500ms ease 0ms, opacity 500ms ease 0ms","x":"100px","y":"0px"}],"stepsB":[{"opacity":1,"transition":"transform 500ms ease-in-out-back 0ms, opacity 500ms ease 0ms","x":"0px","y":"0px"}]},{"type":"scroll","selector":".scroll-navigation","stepsA":[{"transition":"transform 500ms ease 0ms","x":"0px","y":"-100px"},{"display":"none"}],"stepsB":[{"display":"block","transition":"transform 500ms ease 0ms","x":"0px","y":"0px"}]}]}},
   {"slug":"hide","name":"hide","value":{"style":{"opacity":0,"x":"100px","y":"0px"},"triggers":[]}},
   {"slug":"hide-scrollnav","name":"hide-scrollnav","value":{"style":{"display":"none"},"triggers":[]}},
-  {"slug":"show-form","name":"Show Form","value":{"style":{},"triggers":[{"type":"click","selector":".form-container","stepsA":[{"display":"block"},{}],"stepsB":[{"display":"none"}]}]}}
+  {"slug":"show-form","name":"Show Form","value":{"style":{},"triggers":[{"type":"click","selector":".form-container","stepsA":[{"display":"block"},{}],"stepsB":[{"display":"none"}]}]}},
+  {"slug":"new-interaction","name":"New Interaction","value":{"style":{},"triggers":[{"type":"hover","loopA":true,"stepsA":[{"opacity":0,"transition":"transform 500ms ease 0ms, opacity 500ms ease 0ms","scale":1.5}],"stepsB":[{"opacity":1,"transition":"transform 500ms ease 0ms, opacity 500ms ease 0ms","scale":1}]}]}}
 ]);
