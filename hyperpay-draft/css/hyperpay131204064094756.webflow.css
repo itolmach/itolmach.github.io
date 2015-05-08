@@ -284,19 +284,95 @@ p {
   background-image: url('../images/rocket_00c2a2_100.png');
 }
 .icon.after.copyandplay {
+  position: static;
   background-image: url('../images/iconsoutline-1.png');
+  background-size: 45px;
+}
+.icon.after.copyandplay.before {
+  position: absolute;
+  background-color: #1b2e5b;
+  background-image: url('../images/iconsoutline-1-w.png');
+  background-size: 45px;
+}
+.icon.after.mobileoptimization {
+  background-color: transparent;
+  background-size: 45px;
+}
+.icon.after.mobileoptimization.before {
+  position: absolute;
+  background-color: #1b2e5b;
+  background-image: url('../images/iconsoutline-5 copy-w.png');
+  background-size: 45px;
+}
+.icon.after.mobileoptimization.before:hover {
+  opacity: 0;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 .icon.after.fraudmanagement {
   background-image: url('../images/iconsoutline.png');
+  background-size: 45px;
+}
+.icon.after.fraudmanagement.before {
+  position: absolute;
+  background-color: #1b2e5b;
+  background-image: url('../images/iconsoutline-w.png');
+  background-size: 45px;
+}
+.icon.after.fraudmanagement.before:hover {
+  opacity: 0;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 .icon.after.crossplatformintegration {
   background-image: url('../images/iconsoutline-2.png');
+  background-size: 45px;
+}
+.icon.after.crossplatformintegration.before {
+  position: absolute;
+  background-color: #1b2e5b;
+  background-image: url('../images/iconsoutline-2 copy-w.png');
+  background-size: 45px;
+}
+.icon.after.crossplatformintegration.before:hover {
+  opacity: 0;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 .icon.after.savedcreditcard {
   background-image: url('../images/iconsoutline-6.png');
+  background-size: 45px;
+}
+.icon.after.savedcreditcard.before {
+  position: absolute;
+  background-color: #1b2e5b;
+  background-image: url('../images/iconsoutline-6 copy-w.png');
+  background-size: 45px;
+}
+.icon.after.savedcreditcard.before:hover {
+  opacity: 0;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 .icon.after.buisnessintelligenceplatform {
   background-image: url('../images/iconsoutline-3.png');
+  background-size: 45px;
+}
+.icon.after.buisnessintelligenceplatform.before {
+  position: absolute;
+  background-color: #1b2e5b;
+  background-image: url('../images/iconsoutline-3 copy.png');
+  background-size: 45px;
+}
+.icon.after.buisnessintelligenceplatform.before:hover {
+  opacity: 0;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 .icon._2 {
   background-image: url('../images/shield_ffffff_100.png');
@@ -764,9 +840,7 @@ p {
 }
 .merchants-slide {
   height: auto;
-  padding-right: 40px;
-  padding-bottom: 10px;
-  padding-left: 40px;
+  padding: 0px 40px 10px;
   background-color: transparent;
 }
 .press-row {
@@ -850,6 +924,49 @@ html.w-mod-js *[data-ix="hide-scrollnav"] {
   .icon {
     margin-right: auto;
     margin-left: auto;
+  }
+  .icon.after.copyandplay {
+    display: none;
+  }
+  .icon.after.copyandplay.before {
+    position: static;
+    display: block;
+  }
+  .icon.after.mobileoptimization {
+    display: none;
+  }
+  .icon.after.mobileoptimization.before {
+    position: static;
+    display: block;
+  }
+  .icon.after.fraudmanagement {
+    display: none;
+  }
+  .icon.after.fraudmanagement.before {
+    position: static;
+    display: block;
+  }
+  .icon.after.crossplatformintegration {
+    position: absolute;
+    display: none;
+  }
+  .icon.after.crossplatformintegration.before {
+    position: static;
+    display: block;
+  }
+  .icon.after.savedcreditcard {
+    display: none;
+  }
+  .icon.after.savedcreditcard.before {
+    position: static;
+    display: block;
+  }
+  .icon.after.buisnessintelligenceplatform {
+    display: none;
+  }
+  .icon.after.buisnessintelligenceplatform.before {
+    position: static;
+    display: block;
   }
   .div-spc.cnt {
     text-align: center;
