@@ -93,7 +93,7 @@ p {
 .navigation {
   width: 100%;
   padding: 10px 20px 22px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
   background-color: white;
 }
 .banner {
