@@ -58,7 +58,7 @@ a:focus {
   display: block;
 }
 .w-inline-block {
-  max-width: 100%;
+  max-width: 70%;
   display: inline-block;
 }
 .w-clearfix:before,
