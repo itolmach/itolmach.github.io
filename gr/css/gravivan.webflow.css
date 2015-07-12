@@ -260,6 +260,8 @@ p {
 .section.grey {
   position: static;
   background-color: #ecedf3;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .hero-h1 {
   position: static;

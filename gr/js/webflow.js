@@ -3999,5 +3999,6 @@ Webflow.require('ix').init([
   {"slug":"white-heading-text","name":"White Heading Text","value":{"style":{"opacity":0},"triggers":[{"type":"load","preload":true,"stepsA":[{"wait":1600},{"opacity":1,"transition":"opacity 600ms ease-in-out-quad 0ms"},{"wait":100},{"transition":"transform 300ms ease-in-out-quad 0ms","x":"0px","y":"0px"}],"stepsB":[]}]}},
   {"slug":"hover-zoom","name":"hover-zoom","value":{"style":{},"triggers":[{"type":"hover","stepsA":[{"title":"hover-zoom","transition":"transform 500ms ease 0ms","scale":1.05}],"stepsB":[{"transition":"transform 500ms ease 0ms","scale":1}]}]}},
   {"slug":"spin","name":"spin","value":{"style":{"rotate":"-180deg"},"triggers":[{"type":"scroll","stepsA":[{"transition":"transform 500ms ease 0ms","rotate":"0deg"}],"stepsB":[]}]}},
-  {"slug":"new-interaction","name":"New Interaction","value":{"style":{},"triggers":[{"type":"load","stepsA":[{}],"stepsB":[]}]}}
+  {"slug":"new-interaction","name":"New Interaction","value":{"style":{},"triggers":[{"type":"load","stepsA":[{}],"stepsB":[]}]}},
+  {"slug":"new-interaction-2","name":"New Interaction 2","value":{"style":{},"triggers":[{"type":"hover","loopA":true,"loopB":true,"stepsA":[{"transition":"transform 500ms ease 0ms","x":"10px","y":"-10px"}],"stepsB":[{"transition":"transform 500ms ease 0ms","x":"0px","y":"0px"}]}]}}
 ]);
